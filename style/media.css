@@ -1,0 +1,309 @@
+@media(max-width: 1400px){
+.container{
+    max-width: 1140px;
+}
+.about {
+    font-size: 60px;
+}
+.bottom-about{
+    max-width: 317px;
+}
+.nrav , .sber , .kara {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bloki:last-child{
+    margin-top: 20px;
+}
+}
+@media(max-width: 1200px){
+.container{
+    max-width: 960px;
+}
+.first-main{
+    display: block;
+}
+.inside-right {
+    max-width: 644px;
+    margin-left: 0;
+}
+.about {
+    margin: 15px 0 10px;
+}
+.four-main {
+display: block;
+padding-top: 130px;
+}
+.ad {
+    max-width: 747px;
+}
+.knopka {
+    margin-bottom: 10px;
+}
+.sborka {
+    width: min-content;
+}
+.text-about {
+margin: 0;
+}
+.text-centre , .son , .ad {
+    font-size: 57px;
+}
+.bloki:last-child {
+margin: 0;
+}
+.bloki {
+    margin-bottom: 20px;
+}
+.weroa{width: 300px;}
+.nomera{
+    max-width: 300px;
+    max-height: 300px;
+}
+}
+@media(max-width: 960px){
+.container{
+    max-width: 720px;
+    /* width: 720px; */
+}
+.nav-contant{
+    justify-content: space-around;
+}
+.text{
+    font-size: 50px;
+}
+.first-main{padding-top: 40px;}
+.about , .nevone {
+    font-size: 50px;
+}
+.outside {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.rorit{width: auto;}
+.nomera{height: 150px;}
+.fit{width: 189px;}
+.vs{flex-wrap: wrap;}
+.son , .text-centre{width: 627px;}
+
+
+}
+
+@media(max-width: 720px){
+.container{
+    max-width: 540px;
+}
+.nav-contant {
+    justify-content: space-around;
+}
+.link{padding: 0 10px;margin: 0;}
+.text {
+    font-size: 40px;
+}
+.kolap{width: 100%;}
+.about, .nevone {
+    font-size: 45px;
+    line-height: 55px;
+}
+.bottom-about {
+    margin-top: 20px;
+}
+.first-main{padding-bottom: 90px;}
+.outside{justify-content: space-between;}
+.secont-main{gap: 40px;}
+.son, .text-centre {
+    width: 518px;
+}
+.nevone{width: 505px;}
+.text-end{width: 488px;}
+.sleep{width: 444px;}
+.konec{margin-right: 20px;}
+.bottom-about {
+    max-width: 450px;
+}
+.text-centre, .son, .ad {
+    font-size: 38px;
+    line-height: 56px;
+}
+.sber{margin-top: 75px;}
+.haga{font-size: 46px;}
+.weroa {
+    width: 200px;
+}
+.fit{font-size: 25px;}
+.love {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.semshukk{font-size: 20px;}
+.thelast{margin-top: -100px;}
+.footer{padding-top: 170px;}
+}
+@media(max-width: 540px){
+    .container{
+        max-width: 100%;
+    }
+    .nav-contant {
+        justify-content: space-between;
+    }
+    .nav-left{display: block;}
+    .link {
+        margin: 0px;
+        padding: 0;
+    }
+    .fa-shopping-cart::before{margin: 0;}
+    .otdelno {
+        color:black;
+background: none;
+        border-radius: 6px;
+padding: 0;
+         margin-top: 17px;
+    }
+    .about, .nevone {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .ceredina{font-size: 12px;}
+    .text-end {
+        max-width: 363px;
+    }
+    .god{margin-bottom: 10px;}
+    .time{margin-top: 10px;}
+    .sleep {
+        width: 323px;
+    }
+
+    .text-centre, .son, .ad {
+        font-size: 27px;
+        line-height: 42px;
+        max-width: 344px;
+    }
+    .ad-bottom {
+        font-size: 18px;
+        width: 373px;
+    }
+    .trista{width: 300px;}
+    .fit {
+        width: 131px;
+    }
+    .nevone {
+        width: 348px;
+    }
+}
+@media(max-width: 450px){
+    .container{
+        max-width: 100%;
+    }
+    .ceredina {
+        font-size: 10px;
+    }
+.kolap{width: 70%;}
+.bloki , .youp , .aid , .free , .babki{
+    width: 300px;
+}
+.third-main {
+    padding-top: 60px;
+}
+.weroa {
+    width: 125px;
+}
+.nomera {
+    height: 100px;
+}
+.fit {
+    font-size: 20px;
+}
+.fa-twitter::before{padding: 2px;}
+.semshuk , .semshukk{font-size: 16px;}
+}@media(max-width: 400px){
+    .container{
+        max-width: 100%;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .about, .nevone {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .bottom-about {
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    .cilka , .knopka , .ssilka , .nevtwo{
+        font-size: 10px;
+        padding: 11px;
+    }
+    .ceredina{padding: 3px;}
+    .nevone {
+        width: 281px;
+    }
+    .secont-main{margin-bottom: 20px;}
+    .svet {
+        padding-top: 33px;
+        padding-bottom: 54px;
+    }
+    .text-end , .sleep , .ad-bottom {
+        width: 283px;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .text-centre, .son, .ad {
+        font-size: 23px;
+        line-height: 34px;
+        max-width: 280px;
+    }
+    .haga {
+        font-size: 25px;
+    }
+    .rorit {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .thelast{margin: 0;}
+    .thelast:last-child{
+     background: #53536a;
+     border-radius: 20px;
+     box-shadow: 10px 10px 15px 0px rgb(32 113 183 / 50%);
+     margin-top: 15px;
+    }
+    .semshuk , .semshukk , .semshuke {margin-left: 10px;}
+    .thelast:nth-of-type(2n) {
+        margin-top: 20px;
+        border-radius: 25px;
+        background: #484848;
+        box-shadow: 10px 10px 15px 0px rgb(227 23 202 / 50%);
+    }
+    .footer {
+        padding-top: 44px;
+    }
+    .asdf {
+    flex-wrap: wrap;
+}
+.konec {
+    margin-right: 50px;
+}
+.sca , .kara {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.chisto {
+    margin-bottom: 30px;
+}
+.qwerty {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.five-main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.trista {
+    width: 250px;
+}
+.rera {padding-bottom: 20px;}
+.ceredina {
+    font-size: 9px;
+}
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Permanent Marker' ;
+    src: url(../font/Permanent_Marker/PermanentMarker-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(../font/Red_Hat_Display/RedHatDisplay-Regular.ttf);
+    font-family: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+    font-family: 400;
+}
+
+@font-face{
+    font-family: 'FontAwesome';
+    src: url(../icon/webfonts/fa-solid-900.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome Brands' ;
+    src: url(../icon/webfonts/fa-brands-400.ttf);
+    font-weight: 400;
+}
+
+.fas{
+    font-family: 'FontAwesome' ;
+    font-weight: 900;
+}
+
+.fab{
+    font-family: 'FontAwesome Brands' ;
+    font-weight: 400; 
+}
+.fa-twitter::before{
+    content: '\f099';
+    font-style: normal;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 6px;
+    background: white;
+    color: #ec8675;
+}
+.fa-instagram::before{
+    content: '\f16d';
+    font-style: normal;
+    margin-right: 10px;  
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 6px;
+    background: white;
+    color: #ec8675;
+}
+.fa-telegram::before{
+    content: '\f2c6';
+    font-style: normal;
+    margin-right: 10px;  
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 6px;
+    background: white;
+    color: #ec8675;
+}
+
+.fa-youtube::before{
+    content: '\f167';
+    font-style: normal;
+    margin-right: 10px;  
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 6px;
+    background: white;
+    color: #ec8675;
+}
+
+.fa-shopping-cart::before{
+    content: '\f07a';
+    font-style: normal;
+    margin-left: 10px;
+}
